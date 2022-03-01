@@ -7,7 +7,7 @@ G_2 = nx.erdos_renyi_graph(100,0.8)
 G_3 = nx.erdos_renyi_graph(150,0.05)
 
 
-def drawG(G):
+def draw_graph(G):
     nx.draw(G, with_labels=True)
     plt.show()
 
