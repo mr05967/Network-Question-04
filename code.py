@@ -33,8 +33,7 @@ def degree_dis(G):
         deg[degree] += 1
     x = sorted(deg.items())
 
-    plt.plot([k for (k, v) in x], [v for (k, v) in x])
-    
+    plt.plot([k for (k, v) in x], [v for (k, v) in x]) 
     plt.xlabel('k')
     plt.ylabel('p(k)')
     plt.show()
